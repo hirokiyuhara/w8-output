@@ -2,20 +2,20 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  background: #2c3e50;
+  background: #b5bf30;
   padding: 20px; /* コンテナの内側の余白 */
   justify-content: space-around; /* アイテム間のスペースを均等にする */
 }
 
 .grid-layout > div {
-  background: #9b59b6;
-  flex-basis: calc(25% - 10px); /* 4列のレイアウト */
-  height: 100px;
+  background: rgb(182, 89, 111);
+  flex-basis: calc(50% - 10px); /* 2列のレイアウト */
+  height: 100px; /* アイテムの高さ */
   color: white;
   display: flex;
   justify-content: center; /* 中央にテキストを配置 */
   align-items: center; /* アイテムの中央にテキストを配置 */
-  font-size: 20px; /* テキストのサイズ */
+  font-size: 50px; /* テキストのサイズ */
   font-weight: bold; /* テキストの太さ */
-  border-radius: 20px; /* 角の丸み */
+  border-radius: 50px; /* 角の丸み */
 }
