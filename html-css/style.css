@@ -1,0 +1,21 @@
+.grid-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: #2c3e50;
+  padding: 20px; /* コンテナの内側の余白 */
+  justify-content: space-around; /* アイテム間のスペースを均等にする */
+}
+
+.grid-layout > div {
+  background: #9b59b6;
+  flex-basis: calc(25% - 10px); /* 4列のレイアウト */
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center; /* 中央にテキストを配置 */
+  align-items: center; /* アイテムの中央にテキストを配置 */
+  font-size: 20px; /* テキストのサイズ */
+  font-weight: bold; /* テキストの太さ */
+  border-radius: 20px; /* 角の丸み */
+}
