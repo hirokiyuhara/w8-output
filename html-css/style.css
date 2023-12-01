@@ -2,14 +2,14 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  background: #b5bf30;
+  background: #aed8b7;
   padding: 20px; /* コンテナの内側の余白 */
   justify-content: space-around; /* アイテム間のスペースを均等にする */
 }
 
 .grid-layout > div {
-  background: rgb(182, 89, 111);
-  flex-basis: calc(50% - 10px); /* 2列のレイアウト */
+  background: rgb(89, 163, 182);
+  flex-basis: calc(16.666% - 10px); /* 2列のレイアウト */
   height: 100px; /* アイテムの高さ */
   color: white;
   display: flex;
@@ -17,5 +17,5 @@
   align-items: center; /* アイテムの中央にテキストを配置 */
   font-size: 50px; /* テキストのサイズ */
   font-weight: bold; /* テキストの太さ */
-  border-radius: 50px; /* 角の丸み */
+  border-radius: 50%; /* 角の丸み */
 }
