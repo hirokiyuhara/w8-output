@@ -5,3 +5,35 @@ form {
   background: #f4f7f8;
   border-radius: 8px;
 }
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button[type='submit'] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  opacity: 0.8;
+}
+
+a {
+  color: dodgerblue;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
