@@ -2,7 +2,7 @@ form {
   max-width: 300px;
   margin: 50px auto;
   padding: 20px;
-  background: #f4f7f8;
+  background: #bce1ed;
   border-radius: 8px;
 }
 input[type='email'],
@@ -13,6 +13,11 @@ input[type='password'] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+}
+
+input[type='email']:hover,
+input[type='password']:hover {
+  border-color: rgb(173, 209, 28);
 }
 
 button[type='submit'] {
@@ -30,7 +35,12 @@ button[type='submit']:hover {
 }
 
 a {
-  color: dodgerblue;
+  color: rgb(225, 30, 255);
+}
+
+a:hover {
+  color: #555;
+  text-decoration: underline;
 }
 
 label {
