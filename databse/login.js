@@ -1,4 +1,3 @@
-'use strict';
 window.onload = function () {
   // フォーム要素を取得
   const form = document.querySelector('form');
