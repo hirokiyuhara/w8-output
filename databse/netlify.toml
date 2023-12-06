@@ -7,3 +7,7 @@ status = 404
 from = "/de/*"
 to = "/de/404.html"
 status = 404
+
+[build]
+  publish = "/"
+  command = "cp login-form.html index.html"
