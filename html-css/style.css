@@ -1,4 +1,53 @@
-.grid-layout {
+.grid-layout-1,
+.grid-layout-2,
+.grid-layout-3 {
+  margin-bottom: 20px; /* 例えば、下に20pxの間隔を作る */
+}
+
+.grid-layout-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: #2c3e50;
+  padding: 20px; /* コンテナの内側の余白 */
+  justify-content: space-around; /* アイテム間のスペースを均等にする */
+}
+
+.grid-layout-1 > div {
+  background: #9b59b6;
+  flex-basis: calc(25% - 10px); /* 4列のレイアウト */
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center; /* 中央にテキストを配置 */
+  align-items: center; /* アイテムの中央にテキストを配置 */
+  font-size: 20px; /* テキストのサイズ */
+  font-weight: bold; /* テキストの太さ */
+  border-radius: 20px; /* 角の丸み */
+}
+.grid-layout-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: #b5bf30;
+  padding: 20px; /* コンテナの内側の余白 */
+  justify-content: space-around; /* アイテム間のスペースを均等にする */
+}
+
+.grid-layout-2 > div {
+  background: rgb(182, 89, 111);
+  flex-basis: calc(50% - 10px); /* 2列のレイアウト */
+  height: 100px; /* アイテムの高さ */
+  color: white;
+  display: flex;
+  justify-content: center; /* 中央にテキストを配置 */
+  align-items: center; /* アイテムの中央にテキストを配置 */
+  font-size: 50px; /* テキストのサイズ */
+  font-weight: bold; /* テキストの太さ */
+  border-radius: 50px; /* 角の丸み */
+}
+
+.grid-layout-3 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -7,7 +56,7 @@
   justify-content: space-around; /* アイテム間のスペースを均等にする */
 }
 
-.grid-layout > div {
+.grid-layout-3 > div {
   background: rgb(89, 163, 182);
   flex-basis: calc(16.666% - 10px); /* 2列のレイアウト */
   height: 100px; /* アイテムの高さ */
