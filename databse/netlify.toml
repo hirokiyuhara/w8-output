@@ -8,6 +8,11 @@ from = "/de/*"
 to = "/de/404.html"
 status = 404
 
+[[redirects]]
+from = "/login-form"
+to = "/login-form.html"
+status = 200
+
 [build]
-  publish = "/"
-  command = "cp login-form.html index.html"
+publish = "/"
+command = "cp login-form.html index.html"
